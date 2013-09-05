@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+/*main styles for content of the webpage*/
+body {
+	font: 10px verdana, sans-serif ;
+	color: blue;
+	background-color: grey;
+}
+
+/*styles for links displayed on page*/
+a:link {color: blue;}
+a:visited {color: blue;}
+a:hover {color: blue; font-style: italic;}
+a:active {color: white; font-style: italic;}
+
+/*styles for main header across top*/
+header {
+	text-align: center;
+	vertical-align: center;
+	height: 25%;
+	border-bottom: 1px solid black;
+}
+
+/*styles for the navbar*/
+nav {
+	height: 50px;
+	border-bottom: 1px solid black;
+	text-align: center;
+	vertical-align: center;
+	font-size: 14px;
+}
+
+/*styles for the summary window*/
+aside {
+	float: left;
+	width: 25%;
+	height: 100%;
+	
+	vertical-align: top;
+}
+
+/*styles for main content display area*/
+section {
+	float: right;
+	width: 74%;
+	vertical-align: top;
+	padding: 5px;
+	border-left: 1px solid black;
+}
+
+/*styles for footer*/
+footer {
+	clear:both;
+	text-align: center;
+	vertical-align: center;
+	height: 50px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 8px;
+}
