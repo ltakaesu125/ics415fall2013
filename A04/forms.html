@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+<!-- Link style sheet -->
+<link rel="stylesheet" type="text/css" href="a4styles.css">
+</head>
+<body>
+<table id="mainContainer">
+	<!--  Header Bar -->
+	<thead>
+		<tr>
+			<th colspan="2" id="mainHeader"><h1>Lawton's Web Page</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+		<!-- Nav bar -->
+		<tr>
+			<td colspan="2" id="navBar"><a href="index.html">Home</a> <a href="forms.html">Forms</a></td>
+		</tr>
+		<!-- Main content containers -->
+		<tr>
+			<!-- Summaries on left side bar -->
+			<td id="sumBar">
+				<h3>Forms Summary</h3>
+				<p>HTML forms support several different types of input</p>
+			</td>
+			<!-- Main content display -->
+			<td id="mainDisplay">
+				<h3>Forms Page</h3>
+				<p>The following is a text input:</p>
+				<form name="login" action="forms.html" method="get">Username: <input type="text" name="user">
+				<p>Then a password input:</p>
+				Password: <input type="password" name="pwd">
+				<p> We can have radio buttons: </p>
+				<input type="radio" name="sex" value="male">Male<br>
+				<input type="radio" name="sex" value="female">Female
+				<p>Or checkboxes:</p>
+				<input type="checkbox" name="likes" value="car">Car<br>
+				<input type="checkbox" name="likes" value="bike">Bike
+				<p>A color selector:</p>
+				<input type="color" name="selectColor">
+				<p>A date selector:</p>
+				<input type="date" name="selectDate">
+				<p>A date and time selector:</p>
+				<input type="datetime" name="selectDateTime">
+				<p>A month selector:</p>
+				<input type="month" name="selectMonth">
+				<p>An input field for email (mainly for mobile use):</p>
+				<input type="email" name="email">
+				<p>A number selector:</p>
+				<input type="number" name="qty" min="1" max="10">
+				<p>A range selector:</p>
+				<input type="range" name="pts" min="1" max="10">
+				<p>A search input field:</p>
+				<input type="search" name="google">
+				<p>A URL input field:</p>
+				<input type="url" name="newSite">
+				<p>And finally a submit button:</p>
+				<input type="submit" value="Submit">
+				</form>
+			</td>
+		</tr>
+	</tbody>
+	<tfoot align="center">
+		<!-- Footer on bottom of the page -->
+		<tr>
+			<td colspan="2" id="footer">Copyright (C) Lawton Takaesu</td>
+		</tr>
+	</tfoot>
+</table>
+</body>
+</html>
