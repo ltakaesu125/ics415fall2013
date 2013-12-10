@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+	<title>Pink Roses Desserts</title>
+	
+	<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	
+	<!-- More custome styles outside of bootstrap -->
+	<link href="css/pinkStyles.css" rel="stylesheet">
+	
+	<!-- include jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!-- include PHP scripts -->
+	<script src="php/pinkPScript.php"></script>
+</head>
+
+
+<body>
+	<!-- NAVBAR -->
+	<div class="container">
+	<div class="navbar-wrapper">
+		<nav class="navbar navbar-default " role="navigation">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html"><img src="pics/pinkroselogo.jpg" width="100px"></img></a>
+			</div>
+			<div class="navbar-collapse collapsed">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="tech.html">Technologies</a></li>
+					<li><a href="orders.html" class="loginOnly">My Orders</a></li>
+				</ul>
+				<form class="navbar-form pull-right" role="form" method="post" action="php/pinkPScript.php">
+				<div class="form-group">
+					<input type="text" placeholder="Email" class="form-control" name="email">
+				</div>
+				<div class="form-group">
+					<input type="password" placeholder="Password" class="form-control" name="password">
+				</div>
+				<button type="submit" class="btn btn-success">Sign in</button>
+				</form>
+			</div>
+		  </div>
+		</nav>
+	</div>
+		
+	<div class="row">
+	  <div class="col-md-1">
+	  </div>
+	  <div class="col-md-3">
+		<h3>Welcome to Pink Roses Dessert Shop!</h3>
+		<p>Click on the image to the right to view some of our delicious products.</p>
+	  </div>
+	  <div class="col-md-7">
+		<div id="slide">
+			<img src="pics/food/choco_truffle.jpg" class="img-responsive"></img>
+		</div>
+	  </div>
+	  <div class="col-md-1">
+	  </div>
+	  
+	</div>
+	
+	<div class="row footer">
+		<div class="col-md-12">
+		<p>Copyrigt &copy; Pink Roses Dessert Shop, Inc. All rights reserved.</p>
+	</div>
+	</div>
+	
+	
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- custom JavaScript for page -->
+	<script src="js/pinkScript.js"></script>
+	
+	
+
+</body>
+ 
+
+</html>
